@@ -8,3 +8,22 @@ This module was adaptated to React from of [crnacura/AmbientCanvasBackgrounds](h
 ```bash
 $ npm install canvas-background
 ```
+
+### Usage
+Example:
+```js
+import {Component} from 'react';
+import Pipeline from 'canvas-background';
+
+class App extends Component {
+	render() {
+		return (
+			<div className="App">
+				<Pipeline/>
+			</div>
+		);
+	}
+}
+
+export default App;
+```

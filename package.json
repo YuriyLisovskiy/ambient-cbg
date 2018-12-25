@@ -1,18 +1,13 @@
 {
-  "name": "react-ambient-bg",
+  "name": "canvas-background",
+  "description": "Webpage backgrounds created using the HTML5 Canvas API and jwagner's Simplex Noise library in React.js",
   "version": "0.1.0",
   "private": true,
+  "author": "Yuriy Lisovskiy",
+  "license": "MIT",
   "dependencies": {
     "react": "^16.7.0",
-    "react-dom": "^16.7.0",
-    "react-scripts": "2.1.2",
     "simplex-noise": "^2.4.0"
-  },
-  "scripts": {
-    "start": "react-scripts start",
-    "build": "react-scripts build",
-    "test": "react-scripts test",
-    "eject": "react-scripts eject"
   },
   "eslintConfig": {
     "extends": "react-app"
