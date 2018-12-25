@@ -1,3 +1,4 @@
+import React from 'react'
 import CanvasBackground from './CanvasBackground'
 import SimplexNoise from 'simplex-noise'
 import {fadeInOut, rand, TAU, randRange, lerp} from "../utils/Math";
@@ -25,17 +26,9 @@ const backgroundColor = 'hsla(260,40%,5%,1)';
 class Swirl extends CanvasBackground {
 	constructor(props) {
 		super(props);
-		this.container = null;
-		this.gradient = null;
 		this.tick = null;
 		this.simplex = null;
 		this.particleProps = null;
-		this.positions = null;
-		this.velocities = null;
-		this.lifeSpans = null;
-		this.speeds = null;
-		this.sizes = null;
-		this.hues = null;
 	}
 
 	init() {

@@ -1,3 +1,4 @@
+import React from 'react'
 import CanvasBackground from './CanvasBackground'
 import SimplexNoise from 'simplex-noise'
 import {fadeInOut, rand} from "../utils/Math";

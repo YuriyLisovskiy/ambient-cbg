@@ -1,3 +1,4 @@
+import React from 'react'
 import CanvasBackground from './CanvasBackground'
 import {fadeInOut, rand, HALF_PI, angle, lerp} from "../utils/Math";
 
@@ -20,8 +21,6 @@ class Coalesce extends CanvasBackground {
 		super(props);
 		this.tick = null;
 		this.particleProps = null;
-		this.positions = null;
-		this.sizes = null;
 	}
 
 	init() {

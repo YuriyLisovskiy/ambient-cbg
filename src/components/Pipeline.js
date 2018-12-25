@@ -1,3 +1,4 @@
+import React from 'react'
 import CanvasBackground from './CanvasBackground'
 
 import {HALF_PI, TAU, TO_RAD, rand, fadeInOut} from '../utils/Math'
