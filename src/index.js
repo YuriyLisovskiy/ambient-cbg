@@ -1,3 +1,9 @@
+import Shift from './components/Shift'
 import Pipeline from './components/Pipeline'
+import CanvasBackground from './components/CanvasBackground'
 
-export default Pipeline;
+export {
+	Shift,
+	Pipeline,
+	CanvasBackground
+};
