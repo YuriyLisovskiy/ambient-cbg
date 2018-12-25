@@ -2,7 +2,6 @@
   "name": "canvas-background",
   "description": "Webpage backgrounds created using the HTML5 Canvas API and jwagner's Simplex Noise library in React.js",
   "version": "0.1.0",
-  "private": true,
   "author": "Yuriy Lisovskiy",
   "license": "MIT",
   "dependencies": {
