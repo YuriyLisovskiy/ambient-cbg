@@ -1,4 +1,4 @@
-const { PI, cos, sin, abs, sqrt, pow, round, random, atan2 } = Math;
+const { PI, abs, sqrt, pow, random, atan2 } = Math;
 const HALF_PI = 0.5 * PI;
 const TAU = 2 * PI;
 const TO_RAD = PI / 180;

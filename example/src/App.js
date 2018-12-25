@@ -1,13 +1,13 @@
 import React, {Component} from 'react';
 import './App.css';
 
-import Coalesce from './components/Coalesce'
+import Aurora from "./components/Aurora";
 
 class App extends Component {
 	render() {
 		return (
 			<div className="App">
-				<Coalesce/>
+				<Aurora/>
 			</div>
 		);
 	}
