@@ -1,5 +1,5 @@
 {
-  "name": "canvas-background",
+  "name": "canvas-bg",
   "description": "Webpage backgrounds created using the HTML5 Canvas API and jwagner's Simplex Noise library in React.js",
   "version": "0.1.0",
   "author": "Yuriy Lisovskiy",
