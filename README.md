@@ -4,6 +4,8 @@ Animated canvas backgrounds in React.js
 
 This module is React adaptation of [crnacura/AmbientCanvasBackgrounds](https://github.com/crnacura/AmbientCanvasBackgrounds) project with additional code refactoring and improvements.
 
+Check the [example](https://yuriylisovskiy.github.io/ambient-cbg) web application.
+
 ### Installation
 ```bash
 $ npm install ambient-cbg
