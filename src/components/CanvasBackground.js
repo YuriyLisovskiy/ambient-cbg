@@ -6,14 +6,21 @@ class CanvasBackground extends Component {
 		this.canvas = null;
 		this.ctx = null;
 		this.center = null;
+		this.frameId = null;
 	}
 
 	componentDidMount() {
 		this.createCanvas();
 		this.resize();
 		this.init();
-		this.initDraw();
+		this.startLoop();
 		window.addEventListener('resize', this.resize.bind(this));
+	}
+
+	componentWillUnmount() {
+		if (this.frameId !== null) {
+			window.cancelAnimationFrame(this.frameId);
+		}
 	}
 
 	init() {}
@@ -67,9 +74,15 @@ class CanvasBackground extends Component {
 		this.center[1] = 0.5 * this.canvas.a.height;
 	}
 
+	startLoop() {
+		if (this.frameId == null) {
+			this.frameId = window.requestAnimationFrame(this.initDraw.bind(this));
+		}
+	}
+
 	initDraw() {
 		this.draw();
-		window.requestAnimationFrame(this.initDraw.bind(this));
+		this.frameId = window.requestAnimationFrame(this.initDraw.bind(this));
 	}
 }
 
