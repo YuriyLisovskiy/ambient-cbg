@@ -13,14 +13,6 @@ $ npm install ambient-cbg
 
 ### Usage
 Example:
-```css
-/* App.css */
-...
-.content {
-  position: absolute;
-}
-...
-```
 ```js
 // App.js
 import React, {Component} from 'react';
@@ -33,9 +25,7 @@ class App extends Component {
         return (
             <div className="App">
                 <Coalesce/>
-                <div className={'content'}>
-                    <h1>Hello, World!</h1>
-                </div>
+                <h1>Hello, World!</h1>
             </div>
         );
     }
