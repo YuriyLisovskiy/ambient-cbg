@@ -1,7 +1,7 @@
 {
   "name": "ambient-cbg",
   "description": "A React.js webpage backgrounds created using the HTML5 Canvas API and jwagner's Simplex Noise library",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "author": {
     "name": "Yuriy Lisovskiy",
     "email": "yuralisovskiy98@gmail.com"
@@ -10,10 +10,10 @@
   "main": "./build/index.js",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/YuriyLisovskiy/canvas-background.git"
+    "url": "git+https://github.com/YuriyLisovskiy/ambient-cbg.git"
   },
   "bugs": {
-    "url": "https://github.com/YuriyLisovskiy/canvas-background/issues"
+    "url": "https://github.com/YuriyLisovskiy/ambient-cbg/issues"
   },
   "keywords": [
     "react",
@@ -23,7 +23,7 @@
     "html5-canvas",
     "canvas-background"
   ],
-  "homepage": "https://github.com/YuriyLisovskiy/canvas-background#readme",
+  "homepage": "https://github.com/YuriyLisovskiy/ambient-cbg#readme",
   "dependencies": {
     "simplex-noise": "^2.4.0"
   },
