@@ -5,7 +5,7 @@
   "homepage": "https://yuriylisovskiy.github.io/ambient-cbg",
   "dependencies": {
     "@material-ui/core": "^3.7.1",
-    "ambient-cbg": "^1.0.3",
+    "ambient-cbg": "^1.0.4",
     "gh-pages": "^2.0.1",
     "prop-types": "^15.6.2",
     "react": "^16.7.0",
