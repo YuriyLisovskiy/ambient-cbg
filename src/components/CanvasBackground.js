@@ -30,7 +30,7 @@ class CanvasBackground extends Component {
 			height: 100 + 'vh'
 		};
 		return (
-			<div className="content content--canvas">
+			<div>
 				<canvas id={'canvasA'} style={styles}/>
 				<canvas id={'canvasB'} style={styles}/>
 			</div>
