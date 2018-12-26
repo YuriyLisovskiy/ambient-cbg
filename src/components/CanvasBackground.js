@@ -21,15 +21,18 @@ class CanvasBackground extends Component {
 	draw() {}
 
 	render() {
+		const styles = {
+			position: 'fixed',
+			'z-index': -1,
+			top: 0,
+			left: 0,
+			width: 100 + 'vw',
+			height: 100 + 'vh'
+		};
 		return (
 			<div className="content content--canvas">
-				<canvas id={'canvasA'}/>
-				<canvas id={'canvasB'} style={{
-					position: 'fixed',
-					top: 0,
-					left: 0,
-					width: 100 + '%',
-					height: 100 + '%'}}/>
+				<canvas id={'canvasA'} style={styles}/>
+				<canvas id={'canvasB'} style={styles}/>
 			</div>
 		);
 	}

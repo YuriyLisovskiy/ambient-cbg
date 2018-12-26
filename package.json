@@ -1,24 +1,49 @@
 {
-  "name": "canvas-bg",
-  "description": "Webpage backgrounds created using the HTML5 Canvas API and jwagner's Simplex Noise library in React.js",
-  "version": "0.2.2",
-  "author": "Yuriy Lisovskiy",
+  "name": "ambient-cbg",
+  "description": "A React.js webpage backgrounds created using the HTML5 Canvas API and jwagner's Simplex Noise library",
+  "version": "1.0.0",
+  "author": {
+    "name": "Yuriy Lisovskiy",
+    "email": "yuralisovskiy98@gmail.com"
+  },
   "license": "MIT",
+  "main": "./build/index.js",
   "repository": {
     "type": "git",
-    "url": "https://github.com/YuriyLisovskiy/canvas-background"
+    "url": "git+https://github.com/YuriyLisovskiy/canvas-background.git"
   },
+  "bugs": {
+    "url": "https://github.com/YuriyLisovskiy/canvas-background/issues"
+  },
+  "keywords": [
+    "react",
+    "react-component",
+    "canvas",
+    "canvas-api",
+    "html5-canvas",
+    "canvas-background"
+  ],
+  "homepage": "https://github.com/YuriyLisovskiy/canvas-background#readme",
   "dependencies": {
-    "react": "^16.7.0",
     "simplex-noise": "^2.4.0"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.24.1",
+    "babel-core": "^6.24.1",
+    "babel-loader": "^7.0.0",
+    "babel-plugin-transform-object-rest-spread": "^6.23.0",
+    "babel-plugin-transform-react-jsx": "^6.24.1",
+    "babel-preset-env": "^1.5.1",
+    "react": "^16.7.0",
+    "webpack": "^4.28.2",
+    "webpack-cli": "^3.1.2"
+  },
+  "scripts": {
+    "start": "webpack --watch",
+    "build": "webpack",
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
   "eslintConfig": {
     "extends": "react-app"
-  },
-  "browserslist": [
-    ">0.2%",
-    "not dead",
-    "not ie <= 11",
-    "not op_mini all"
-  ]
+  }
 }

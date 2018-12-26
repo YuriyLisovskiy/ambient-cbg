@@ -1,29 +1,46 @@
-## Canvas Background
+## React Ambient Canvas Backgrounds
 
 Animated canvas backgrounds in React.js
 
-This module was adaptated to React from of [crnacura/AmbientCanvasBackgrounds](https://github.com/crnacura/AmbientCanvasBackgrounds). Also it contains additional code improvements.
+This module is React adaptation of [crnacura/AmbientCanvasBackgrounds](https://github.com/crnacura/AmbientCanvasBackgrounds) project with additional code refactoring and improvements.
 
-### Install
+### Installation
 ```bash
-$ npm install canvas-bg
+$ npm install ambient-cbg
 ```
 
 ### Usage
 Example:
+```css
+/* App.css */
+...
+.content {
+  position: absolute;
+}
+...
+```
 ```js
-import {Component} from 'react';
-import Pipeline from 'canvas-bg';
+// App.js
+import React, {Component} from 'react';
+import './App.css';
+
+import {Coalesce} from 'ambient-cbg'
 
 class App extends Component {
-	render() {
-		return (
-			<div className="App">
-				<Pipeline/>
-			</div>
-		);
-	}
+    render() {
+        return (
+            <div className="App">
+                <Coalesce/>
+                <div className={'content'}>
+                    <h1>Hello, World!</h1>
+                </div>
+            </div>
+        );
+    }
 }
 
 export default App;
 ```
+
+### License
+This project is licensed under the conditions of the MIT software license, see [LICENSE](LICENSE) file for more details.
